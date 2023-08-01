@@ -1,18 +1,18 @@
-# roberto-frontend-phase-1-project
+### roberto-frontend-phase-1-project
 My Flatiron Frontend Phase 1 Project
 
-#NAME
+# NAME
 Local Chicago
 
-#DESCRIPTION
+# DESCRIPTION
 This app exsclusivily displays the local art available to see within the Chicago Art Institute library.
 
-#INSTALLATION INSTRUCTIONS
+# INSTALLATION INSTRUCTIONS
 
-#HOW-TO
+# HOW-TO
 
-#CONTRIBUTOR'S GUIDE
+# CONTRIBUTOR'S GUIDE
 Not seeking contributions.
 
-#LICENSE
+# LICENSE
 MIT
