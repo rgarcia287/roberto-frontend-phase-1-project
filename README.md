@@ -2,10 +2,10 @@
 My Flatiron Frontend Phase 1 Project
 
 #NAME
-Chicago People's Art
+Local Chicago
 
 #DESCRIPTION
-This app exsclusivily displays the local art avalaible to see within the Chicago art museum.
+This app exsclusivily displays the local art available to see within the Chicago Art Institute library.
 
 #INSTALLATION INSTRUCTIONS
 
