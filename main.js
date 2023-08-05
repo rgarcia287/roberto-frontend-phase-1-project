@@ -9,6 +9,9 @@ fetch('http://localhost:3000/art')
     infoClick(data)
   });
 
+  //Elements
+  const artContainer = document.querySelector(".art-container")
+
   //EventListeners
 
   //function that grabs each object based on the hover event
