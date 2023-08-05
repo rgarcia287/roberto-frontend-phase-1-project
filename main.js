@@ -1,7 +1,11 @@
 console.log('main.js is connected')
 fetch('http://localhost:3000/art')
-.then(res => console.log(res))
-
+.then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    console.log(data)
+  });
 //Timeout for name appearing
 
 
@@ -12,7 +16,7 @@ fetch('http://localhost:3000/art')
 
 //Function that finds the name
 function artName (obj) {
-    return newNames[obj.name]
+    return obj.map((x) => x.name);
 }
 
 //The click event
