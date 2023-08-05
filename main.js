@@ -5,30 +5,22 @@ fetch('http://localhost:3000/art')
   })
   .then(function (data) {
     console.log(data)
+    nameHover(data)
+    infoClick(data)
   });
-//Timeout for name appearing
 
+  //EventListeners
 
-//The hovering event
+  //function that grabs each object based on the hover event
+function nameHover (data) {
+    return data.forEach(element => {
+            data.name
+        });
+    }
 
-//Grabbing the names
-
-
-//Function that finds the name
-function artName (obj) {
-    return obj.map((x) => x.name);
-}
-
-//The click event
-
-//Grabbing the rest of the data from JSON
-
-//Function that find the descriptions
-function artInfo (obj) {
-    return newInfo[obj.description]
-}
-
-//Function that finds the images
-function artImage (obj) {
-    return newImages[obj.image]
-}
+  //function that grabs the info. based on a click event
+  function infoClick (data) {
+    return data.forEach(element => {
+            data.description
+        });
+    }
