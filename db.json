@@ -1,0 +1,45 @@
+{
+    "art": [
+    {
+        "name" : "A Successful Hunt",
+        "year" : "1906",
+        "artist" : "Henry François Farny",
+        "image" : "https://collectionapi.metmuseum.org/api/collection/v1/iiif/682689/1509042/main-image",
+        "description" : "Farny created peaceful, elegiac scenes of Native Americans engaged in everyday rituals, always in harmony with their natural environment. Using clothing, artifacts, and sketches collected from his western trips between 1881 and 1894, the Cincinnati-based artist focused on motifs representing Indigenous customs from the years before Euro-American settlement and native relocation onto government reservations. In `A Successful Hunt,` Farny presents a late-afternoon return from the daily work of seeking sustenance, with particular attention to the diverse effects of natural light on the Rocky Mountain landscape."
+
+    },
+    {
+        "name" : "Evolution of Swing" ,
+        "year" : "1939",
+        "artist" : "Raymond Steth",
+        "image" : "https://collectionapi.metmuseum.org/api/collection/v1/iiif/372052/740401/main-image" ,
+        "description" : "Evolution of Swing illustrates the development of swing music from its origins in rural Africa, represented by the scene at lower right, through the enslavement of Africans by white Americans, to the urban centers of the twentieth century. The subject is representative of the centrality of black American history and culture in Steth`s work. He took cues from the three primary leaders of the Mexican muralism movement—his contemporaries José Clemente Orozco, Diego Rivera, and David Alfaro Siqueiros—in producing a flowing, allover composition that conveys an intelligible narrative. The print is based on a drawing that Steth used in his application to the Federal Art Project of the Works Progress Administration, a New Deal program that financially supported unemployed artists. He was placed in the Graphics Division of the Federal Art Project in Philadelphia, where he worked for a little over two years and developed the drawing into a lithograph."
+
+    },
+    {
+        "name" : "Self-Portrait",
+        "year" : "1941",
+        "artist" : "Samuel Joseph Brown, Jr",
+        "image" : "https://collectionapi.metmuseum.org/api/collection/v1/iiif/488109/1008590/main-image",
+        "description" : "Brown gained international acclaim as an accomplished watercolorist, and here he uses the medium to present his own image through flattened forms and matte surfaces. Enclosed by the deep blue tonalities of an indistinct interior, he conveys a pensive mood as he gazes into a mirror, setting up an echo chamber of dualities. We see the artist, implausibly, in both profile and three-quarter views; he contemplates himself in the mirror, while his reflection stares at us. After completing a master`s degree in Fine Arts at the University of Pennsylvania, Brown became the first African American hired by the U.S. government`s inaugural work-relief program for the arts, and he later worked for the Works Progress Administration in Philadelphia."
+
+    },
+    {
+        "name" : "On the Southern Plains",
+        "year" : "1907",
+        "artist" : "Frederic Remington",
+        "image" : "https://collectionapi.metmuseum.org/api/collection/v1/iiif/11867/34273/main-image",
+        "description" : "One of Remington`s favorite themes was the American soldier in the West, of whom he wrote, “His heroism is called duty, and it probably is.” Here, soldiers led by a scout in buckskin charge an unseen enemy. Although the painting was probably meant to refer to the war against the Plains Indians in the 1860s—Remington titled it `Cavalry in Sixties`—the uniforms and weapons date variously from the time of the Civil War through the 1870s. The artist was willing to depart from reality in other details as well. For example, the horses and riders are shown as a dynamic mass rather than in a straight horizontal line, which was the usual attack formation."
+
+    },
+    {
+        "name" : "One Third of a Nation",
+        "year" : "1939",
+        "artist" : "O. Louis Guglielmi",
+        "image" : "https://collectionapi.metmuseum.org/api/collection/v1/iiif/488126/1007125/main-image",
+        "description" : "The title of this work references President Franklin D. Roosevelt`s 1937 inaugural address, in which he proclaimed, `I see one-third of a nation ill-housed, ill-clad, ill-nourished.` One Third of a Nation is also the title of Arthur Arent`s 1938 play, which emphasized the plight of the poor and was funded by the Works Progress Administration's Federal Theatre Project. In this painting Guglielmi draws attention to the horrid living conditions during the Great Depression. The forms in the foreground resemble coffins and subsequently suggest a similar reading of the brick tenements behind them. The floral wreath adorning the building`s cornice reinforces this metaphor."
+
+    }
+  ]
+}
+
