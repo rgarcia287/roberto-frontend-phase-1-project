@@ -14,8 +14,12 @@ fetch('http://localhost:3000/art')
   const artContainer = document.querySelector(".art-container")
 
   //Card
-  const artCard = document.createElement('div')
-  artCard.classList.add("card")
+  function renderArtCard (data) {
+    const artCard = document.createElement('div')
+    artCard.classList.add("card")
+    artCard.addEventListener("click", e => infoClick())
+
+}
 
   //EventListeners
   //name
@@ -26,13 +30,6 @@ fetch('http://localhost:3000/art')
             event.target.e = "";
         }, 1000);
     },
-  )
-
-  //info
-  artContainer.addEventListener(
-    "click", (event) => {
-        infoClick();
-    }
   )
 
   //function that grabs each object based on the hover event
