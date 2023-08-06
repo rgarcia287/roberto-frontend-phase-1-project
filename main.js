@@ -19,6 +19,8 @@ fetch('http://localhost:3000/art')
     artCard.classList.add("card")
     artCard.addEventListener("click", e => infoClick())
 
+    const image = document.createElement("img")
+    image.src = grabArt()
 }
 
   //EventListeners
