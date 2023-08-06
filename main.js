@@ -6,9 +6,11 @@ fetch('http://localhost:3000/art')
   })
   .then(function (data) {
     console.log(data)
-    nameHover(data)
-    infoClick(data)
+    renderArtCard(data)
   });
+
+  //Calling Functions
+  renderArtCard()
 
   //Elements
   const artContainer = document.querySelector(".art-container")
@@ -18,39 +20,17 @@ fetch('http://localhost:3000/art')
     const artCard = document.createElement('div')
     artCard.classList.add("card")
     artCard.addEventListener("click", e => infoClick())
-
-    const image = document.createElement("img")
-    image.src = grabArt()
-}
-
-  //EventListeners
-  //name
-  artContainer.addEventListener(
-    "mouseenter", (event) => {
-        nameHover();
+    artCard.addEventListener ("mouseenter", (event) => {
+        data.forEach(data => {
+            data.name
+        });
         setTimeout(() => {
             event.target.e = "";
         }, 1000);
     },
   )
 
-  //function that grabs each object based on the hover event
-function nameHover (data) {
-    return data.forEach(element => {
-            data.name
-        });
-    }
-
-  //function that grabs the info. based on a click event
-  function infoClick (data) {
-    return data.forEach(element => {
-            data.description
-        });
-    }
-
-    //function that grabs the image
-    function grabArt (data) {
-        return data.forEach(element => {
-            data.image
-        });
-    }
+    const image = document.createElement("img")
+    image.src = data.forEach(data => {
+        data.image}) 
+}
