@@ -17,10 +17,23 @@ fetch('http://localhost:3000/art')
   const artCard = document.createElement('div')
   artCard.classList.add("card")
 
-  const artImage = document.createElement('img')
-  image.src = grabArt()
-
   //EventListeners
+  //name
+  artContainer.addEventListener(
+    "mouseenter", (event) => {
+        nameHover();
+        setTimeout(() => {
+            event.target.e = "";
+        }, 1000);
+    },
+  )
+
+  //info
+  artContainer.addEventListener(
+    "click", (event) => {
+        infoClick();
+    }
+  )
 
   //function that grabs each object based on the hover event
 function nameHover (data) {
