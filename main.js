@@ -20,10 +20,13 @@ function renderArtCard (data) {
         const artCard = document.createElement('div')
         artCard.classList.add("card")
         const artImage = document.createElement('img')
+        artImage.className = "artPaint"
+        const artName = document.createElement('h1')
+        artName.className = "paintName"
         artImage.src = art.image
-        let cardState = art.image
+        artName.h1 = art.name
         artCard.addEventListener("mouseover", e => {
-            art.name
+            renderArtCard
             console.log(art.name)
     })
     artCard.append(artImage)
@@ -37,20 +40,20 @@ function renderBackCard (data) {
         artBack.classList.add("backCard")
         const artFlip = document.createElement('div')
         const artInfo = document.createElement('p')
+        artInfo.className = "paintInfo"
         const artYear = document.createElement('h2')
+        artYear.className = "paintYear"
         const artMaker = document.createElement('h3')
+        artMaker.className = "paintMaker"
         artInfo.p = art.description
         artYear.h2 = art.year
         artMaker.h3 = art.artist
-        let cardState = art.image
         artBack.addEventListener("click", e => {
-            console.log('Click Me!')
-            if (cardState = false) {
-                return renderBackCard(data);
-            } else {
-                renderArtCard(data);
-            }
+            console.log('click!')
+            artBack
         })
+        artBack.append(artFlip, artInfo, artYear, artMaker)
+        artContainer.append(artBack)
     })
 }
 
